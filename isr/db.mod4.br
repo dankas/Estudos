@@ -1,0 +1,14 @@
+$TTL 604800 
+@  IN  SOA  mod4.br.  root.mod4.br. (  
+       1  ;           Serial      
+       10800 ;          Refresh 
+       3600 ;           Retry 
+       604800 ;       Expire 
+       86400) ;       Negative cache TTL 
+
+; 
+@    IN  NS  servidor.mod4.br.      
+@    IN  A  10.0.2.15               
+servidor  IN  A  192.168.1.1        
+cliente1  IN  A  192.168.1.2         
+cliente2  IN  A  192.168.1.3         
